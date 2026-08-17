@@ -1,0 +1,47 @@
+#============================================
+#PS1='┌──[\u@\h]─[\w]\n└──╼ \$'
+#Prompt Style with gray background
+#ANSI colors forground
+#   \e[30m  #Black
+#   \e[31m  #Red
+#   \e[32m  #Green
+#   \e[33m  #Yellow
+#   \e[34m  #Blue
+#   \e[35m  #Magenta
+#   \e[36m  #Cyan
+#   \e[37m  #White
+#   \e[39m  #Default foreground
+
+#ANSI colors bright foreground
+#   \e[90m  #Bright black
+#   \e[91m  #Bright red
+#   \e[92m  #Bright green
+#   \e[93m  #Bright yellow
+#   \e[94m  #Bright blue
+#   \e[95m  #Bright magenta
+#   \e[96m  #Bright cyan
+#   \e[97m  #Bright white
+
+#Ansi color formatting
+#   \e[0m   #Reset all formatting
+#   \e[1m   #Bold
+#   \e[2m   #Dim
+#   \e[3m   #Italic
+#   \e[4m   #Underline
+#   \e[5m   #Blink
+#   \e[7m   #Reverse colors
+#   \e[9m   #Strikethrough
+#   \e[22m  #Normal intensity
+#   \e[23m  #Disable italic
+#   \e[24m  #Disable underline
+
+# Variables
+bold_yellow='\e[1;93m'
+reset='\e[0m'
+bold_cyan='\e[1;96m'
+bold_green='\e[3;1;92m'
+bold_white='\e[1;97m'
+blue='\e[34m'
+
+PS1='${bold_yellow}┌──[${reset}${bold_green}\u${reset}${blue}@${reset}${bold_white}\h${reset}${bold_yellow}]─[${reset}${bold_cyan}\w${reset}${bold_yellow}]\n└──╼ \$${reset}'
+#====================================
