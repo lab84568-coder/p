@@ -43,5 +43,5 @@ bold_green='\e[3;1;92m'
 bold_white='\e[1;97m'
 blue='\e[34m'
 
-PS1='${bold_yellow}┌──[${reset}${bold_green}\u${reset}${blue}@${reset}${bold_white}\h${reset}${bold_yellow}]─[${reset}${bold_cyan}\w${reset}${bold_yellow}]\n└──╼ \$${reset}'
+PS1='${bold_yellow}┌──[${reset}${bold_green}\u${reset}${blue}@${reset}${bold_white}\h${reset}${bold_yellow}]─[${reset}${bold_cyan}\w${reset}${bold_yellow}]${reset}\n${bold_yellow}└──╼${reset} ${bold_yellow}\$${reset}'
 #====================================
